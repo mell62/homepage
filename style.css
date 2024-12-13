@@ -1,0 +1,21 @@
+:root {
+  --primary: #3da9fc;
+  --secondary: #90b4ce;
+  --tertiary: #ef4565;
+  --header: #094067;
+  --paragraph: #5f6c7b;
+  --white: #fffffe;
+}
+
+body {
+  background-color: var(--white);
+  min-height: 100vh;
+}
+
+header {
+  min-height: 20rem;
+  width: 500rem;
+  background-color: var(--primary);
+  transform: translateY(-32rem) translateX(-4rem) rotate(-7deg);
+  box-shadow: 0 0.1rem 0.2rem var(--secondary);
+}
