@@ -11,9 +11,11 @@ body {
   background-color: var(--white);
   min-height: 100vh;
   font-size: 1.1rem;
+  overflow-x: hidden;
 }
 
 .header-style {
+  position: relative;
   min-height: 20rem;
   width: 500rem;
   background-color: var(--primary);
@@ -29,27 +31,30 @@ header {
   justify-content: center;
 }
 
+.header-img {
+  max-width: 16rem;
+  height: auto;
+  box-shadow: 0 0.1rem 0.2rem var(--secondary);
+  object-fit: cover;
+}
+
+.header-container {
+  grid-area: 1 / 1 / 2 / 3;
+  max-height: 18rem;
+  display: grid;
+  align-items: start;
+  grid-template: 20rem / 16rem 42rem;
+}
+
 .name {
   grid-area: 2 / 1 / 3 / 2;
   font-size: 2rem;
   justify-self: center;
 }
 
-.header-img {
-  max-width: 16rem;
-  height: auto;
-  box-shadow: 0 0.1rem 0.2rem var(--secondary);
-}
-
-.header-container {
-  grid-area: 1 / 1 / 2 / 3;
-  box-shadow: 0 0.1rem 0.2rem var(--secondary);
-  max-height: 18rem;
-  display: flex;
-  align-items: start;
-}
-
 .header-text-container {
+  box-shadow: 0 0.1rem 0.2rem var(--secondary);
+  padding-bottom: 6rem;
   background-color: var(--white);
   align-self: center;
   display: flex;
@@ -71,4 +76,32 @@ header {
   cursor: pointer;
   width: 1.5rem;
   height: auto;
+}
+
+@media (max-width: 600px) {
+  header {
+    grid-template: 43rem 2rem 2rem/ 16rem;
+    transform: translateY(-28rem);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-container {
+    grid-area: 1 / 1 / 2 / 2;
+    max-height: 18rem;
+    display: grid;
+    align-items: start;
+    grid-template: 23rem 20rem / 16rem;
+  }
+
+  .name {
+    grid-area: 2 / 1 / 3 / 2;
+    transform: translateY(-12rem);
+    color: var(--white);
+  }
+
+  .header-logos-container {
+    grid-area: 4 / 1 / 5 / 2;
+    transform: translateY(8rem) translateX(-1rem);
+  }
 }
