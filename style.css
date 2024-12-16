@@ -26,7 +26,7 @@ body {
 
 header {
   display: grid;
-  grid-template: 20rem 2rem / 16rem 42rem;
+  grid-template: 4rem 2rem / 16rem 42rem;
   transform: translateY(-18rem);
   justify-content: center;
 }
@@ -49,7 +49,7 @@ header {
   grid-area: 2 / 1 / 3 / 2;
   font-size: 2rem;
   justify-self: center;
-  transform: translateY(-1rem);
+  transform: translateY(15rem);
   text-shadow: 0rem 0.1rem 0.2rem var(--black);
   color: var(--white);
 }
@@ -70,7 +70,7 @@ header {
   grid-area: 2 / 2 / 3 / 3;
   align-self: flex-end;
   justify-self: flex-end;
-  transform: translateY(-4.5rem) translateX(-1rem);
+  transform: translateY(12rem) translateX(-1rem);
   display: flex;
   gap: 1rem;
 }
@@ -81,9 +81,16 @@ header {
   height: auto;
 }
 
+.project-1-img {
+  background-image: url("./images/weather-app.png");
+  max-width: 10rem;
+  height: 10rem;
+  background-size: contain;
+}
+
 @media (max-width: 1000px) {
   header {
-    grid-template: 50rem 2rem/ 18rem 18rem;
+    grid-template: 10rem 2rem/ 18rem 18rem;
     transform: translateY(-24rem);
     align-items: center;
     justify-content: center;
@@ -92,7 +99,7 @@ header {
   .header-container {
     grid-area: 1 / 1 / 2 / 3;
     display: block;
-    transform: translateY(-4rem);
+    transform: translateY(16rem);
   }
 
   .header-img {
@@ -115,19 +122,19 @@ header {
 
   .name {
     grid-area: 1 / 2 / 2 / 3;
-    transform: translateY(-15.5rem) translateX(-13rem);
+    transform: translateY(4.5rem) translateX(-13rem);
   }
 
   .header-logos-container {
     grid-area: 2 / 2 / 3 / 3;
-    transform: translateY(-19.5rem) translateX(-2rem);
+    transform: translateY(20.5rem) translateX(-2rem);
   }
 }
 
 @media (max-width: 700px) {
   header {
-    grid-template: 46rem 2rem 2rem/ 20rem;
-    transform: translateY(-28rem);
+    grid-template: 24rem 2rem 2rem/ 20rem;
+    transform: translateY(-36rem);
   }
 
   .header-img {
@@ -157,11 +164,11 @@ header {
 
   .name {
     grid-area: 2 / 1 / 3 / 2;
-    transform: translateY(-18rem);
+    transform: translateY(16rem);
   }
 
   .header-logos-container {
     grid-area: 3 / 1 / 4 / 2;
-    transform: translateY(3rem) translateX(-7rem);
+    transform: translateY(33rem) translateX(-7rem);
   }
 }
