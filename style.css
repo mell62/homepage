@@ -88,16 +88,51 @@ main {
   align-items: center;
 }
 
+.projects-container {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .project-card {
   box-shadow: 0 0.1rem 0.2rem var(--secondary);
-  max-width: 16rem;
+  max-width: 20rem;
+}
+
+.project-1-img,
+.project-2-img,
+.project-3-img,
+.project-4-img,
+.project-5-img,
+.project-6-img {
+  min-width: 20rem;
+  height: 16rem;
+  background-size: contain;
 }
 
 .project-1-img {
   background-image: url("./images/weather-app.png");
-  max-width: 16rem;
-  height: 16rem;
-  background-size: cover;
+}
+
+.project-2-img {
+  background-image: url("./images/battleship.png");
+}
+
+.project-3-img {
+  background-image: url("./images/todo-list.png");
+}
+
+.project-4-img {
+  background-image: url("./images/calculator.png");
+}
+
+.project-5-img {
+  background-image: url("./images/tic-tac-toe.png");
+}
+
+.project-6-img {
+  background-image: url("./images/restaurant-page.png");
 }
 
 .project-card-text-container {
@@ -110,6 +145,11 @@ main {
 
 .project-card-text-container h3 {
   margin: 0;
+}
+
+.project-logos-container {
+  display: flex;
+  gap: 1rem;
 }
 
 .project-logo {
