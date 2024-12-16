@@ -124,7 +124,7 @@ header {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   header {
     grid-template: 46rem 2rem 2rem/ 20rem;
     transform: translateY(-28rem);
