@@ -98,7 +98,8 @@ main {
 
 .project-card {
   box-shadow: 0 0.1rem 0.2rem var(--secondary);
-  max-width: 15rem;
+  max-width: 17.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .project-1-img,
@@ -107,8 +108,8 @@ main {
 .project-4-img,
 .project-5-img,
 .project-6-img {
-  min-width: 15rem;
-  height: 12rem;
+  min-width: 17.5rem;
+  height: 14rem;
   background-size: contain;
 }
 
@@ -201,7 +202,7 @@ main {
   }
 
   .projects-container {
-    max-width: 36rem;
+    max-width: 38rem;
   }
 }
 
@@ -287,5 +288,9 @@ main {
 
   .project-6-img {
     background-image: url("./images/restaurant-page-cropped.png");
+  }
+
+  .project-name {
+    max-width: 8rem;
   }
 }
