@@ -1,9 +1,9 @@
 :root {
-  --primary: #3da9fc;
+  --primary: #078080;
   --secondary: #90b4ce;
   --tertiary: #ef4565;
-  --header: #094067;
-  --paragraph: #5f6c7b;
+  --header: #232323;
+  --paragraph: #222525;
   --white: #fffffe;
   --black: #232323;
   --header-font: "Playfair Display", serif;
@@ -19,12 +19,14 @@ body {
   font-weight: 300;
   font-size: 0.9rem;
   line-height: 1.4rem;
+  color: var(--paragraph);
 }
 
 h1,
 h3 {
   font-family: var(--header-font);
   font-weight: 300;
+  color: var(--header);
 }
 
 .header-style {
@@ -183,6 +185,7 @@ footer {
 
 footer h1 {
   margin: 0;
+  color: var(--white);
 }
 
 .contact-text-container {
