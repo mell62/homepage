@@ -1,6 +1,6 @@
 # Homepage
 
-This is my personal homepage (just a practise version), designed using HTML and CSS to achieve responsive and accesible design on any screen
+This is my personal homepage (just a practise version), designed using HTML and CSS to achieve responsive and accessible design on any screen
 
 Check it out :point_right:[here!](https://mell62.github.io/homepage/):point_left:
 
