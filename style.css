@@ -90,7 +90,7 @@ main {
 
 .projects-container {
   display: flex;
-  gap: 4rem;
+  gap: 6rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -239,5 +239,44 @@ main {
   .header-logos-container {
     grid-area: 3 / 1 / 4 / 2;
     transform: translateY(33rem) translateX(-7rem);
+  }
+
+  .project-card {
+    max-width: 16rem;
+  }
+
+  .project-1-img,
+  .project-2-img,
+  .project-3-img,
+  .project-4-img,
+  .project-5-img,
+  .project-6-img {
+    min-width: 16rem;
+    max-width: 16rem;
+    height: 16rem;
+  }
+
+  .project-1-img {
+    background-image: url("./images/weather-app-cropped.png");
+  }
+
+  .project-2-img {
+    background-image: url("./images/battleship-cropped.png");
+  }
+
+  .project-3-img {
+    background-image: url("./images/todo-list-cropped.png");
+  }
+
+  .project-4-img {
+    background-image: url("./images/calculator-cropped.png");
+  }
+
+  .project-5-img {
+    background-image: url("./images/tic-tac-toe-cropped.png");
+  }
+
+  .project-6-img {
+    background-image: url("./images/restaurant-page-cropped.png");
   }
 }
