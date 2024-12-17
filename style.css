@@ -162,20 +162,51 @@ main {
 
 footer {
   background-color: var(--primary);
-  padding: 2rem;
+  padding: 3rem 30rem 3rem 30rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer h1 {
   margin: 0;
 }
 
-.contact-header-logo {
+.contact-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: var(--white);
+}
+
+.contact-message {
+  max-width: 18rem;
+}
+
+.contact-logos-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-number-container,
+.contact-email-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-details-logo {
+  max-width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--white);
+}
+
+.contact-logo {
   max-width: 2rem;
-  height: auto;
+  height: 2rem;
+  cursor: pointer;
 }
 
 .footer-img {
-  width: 8rem;
+  max-width: 34rem;
   height: auto;
 }
 
