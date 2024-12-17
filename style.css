@@ -253,12 +253,11 @@ footer h1 {
 
   .header-text-container h1 {
     text-align: center;
-    transform: translateY(-2rem);
   }
 
   .name {
     grid-area: 1 / 2 / 2 / 3;
-    transform: translateY(4.5rem) translateX(-11rem);
+    transform: translateY(3.5rem) translateX(-11rem);
   }
 
   .header-logos-container {
