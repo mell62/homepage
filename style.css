@@ -162,9 +162,10 @@ main {
 
 footer {
   background-color: var(--primary);
-  padding: 3rem 30rem 3rem 30rem;
+  padding: 3rem 0 3rem 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 8rem;
 }
 
 footer h1 {
@@ -255,6 +256,14 @@ footer h1 {
   .projects-container {
     max-width: 38rem;
   }
+
+  footer {
+    gap: 2rem;
+  }
+
+  .footer-img {
+    max-width: 20rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -343,5 +352,24 @@ footer h1 {
 
   .project-name {
     max-width: 8rem;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    gap: 4.5rem;
+  }
+
+  footer h1 {
+    text-align: center;
+  }
+
+  .contact-logos-container {
+    justify-content: center;
+  }
+
+  .footer-img {
+    max-width: 100%;
+    min-width: 100%;
   }
 }
