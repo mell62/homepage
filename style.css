@@ -90,14 +90,15 @@ main {
 
 .projects-container {
   display: flex;
-  gap: 6rem;
+  gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 58rem;
 }
 
 .project-card {
   box-shadow: 0 0.1rem 0.2rem var(--secondary);
-  max-width: 20rem;
+  max-width: 15rem;
 }
 
 .project-1-img,
@@ -106,8 +107,8 @@ main {
 .project-4-img,
 .project-5-img,
 .project-6-img {
-  min-width: 20rem;
-  height: 16rem;
+  min-width: 15rem;
+  height: 12rem;
   background-size: contain;
 }
 
@@ -198,6 +199,10 @@ main {
     grid-area: 2 / 2 / 3 / 3;
     transform: translateY(20.5rem) translateX(-2rem);
   }
+
+  .projects-container {
+    max-width: 36rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -239,6 +244,10 @@ main {
   .header-logos-container {
     grid-area: 3 / 1 / 4 / 2;
     transform: translateY(33rem) translateX(-7rem);
+  }
+
+  .projects-container {
+    max-width: 20rem;
   }
 
   .project-card {
