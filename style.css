@@ -86,6 +86,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 4rem;
 }
 
 .projects-container {
@@ -156,6 +157,25 @@ main {
 
 .project-logo {
   width: 1.5rem;
+  height: auto;
+}
+
+footer {
+  background-color: var(--primary);
+  padding: 2rem;
+}
+
+footer h1 {
+  margin: 0;
+}
+
+.contact-header-logo {
+  max-width: 2rem;
+  height: auto;
+}
+
+.footer-img {
+  width: 8rem;
   height: auto;
 }
 
