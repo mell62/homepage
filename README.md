@@ -15,6 +15,7 @@ Check it out :point_right:[here!](https://mell62.github.io/homepage/):point_left
 - **Responsive design** achieved for screens ranging from desktops and tablets to mobiles
 - **Natural responsiveness** of **Flexbox** has been utilized
 - **Media queries** have been implemented to solidify responsive design
+- The concept of **art direction** has been implemented through the `<picture>` tag to serve clipped versions of images for different viewport sizes
 - **Accessibility** friendly design has been implemented, through usage of accessible colors consisting of good contrast ratio, ensuring keyboard navigation, utilizing **WAI-ARIA** to enhance screen reader experience
 
 ## :page_with_curl: Note
